@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        width: 300px;
+      }
+    </style>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <h1>Text Converter</h1>
+    <p>Manage your conversion methods here.</p>
+    <!-- Add input field for API key -->
+    <form id="apiKeyForm">
+      <label for="apiKey">API Key:</label><br />
+      <input
+        type="text"
+        id="apiKey"
+        placeholder="Enter your API key"
+        required
+      /><br />
+      <button type="submit">Save API Key</button>
+    </form>
+    <form id="conversionMethodForm">
+      <label for="conversionTitle">Register a new conversion method:</label
+      ><br />
+      <input
+        type="text"
+        id="conversionTitle"
+        placeholder="Title"
+        required
+      /><br />
+      <input
+        type="text"
+        id="conversionMethod"
+        placeholder="String with {{}} placeholder"
+        required
+      /><br />
+      <button type="submit">Register Method</button>
+    </form>
+    <div id="conversionMethods"></div>
+  </body>
+</html>
