@@ -1,13 +1,12 @@
-# GPT Text Converter Chrome Extension
-
-GPT-4と一緒に作った、  
+# GPT Text Converter Chrome Extension  
 設定済み文字列+選択文字列をGPT-3.5にリクエストを飛ばして  
 帰ってきた文字列を画面上に表示するChrome拡張機能。
 
-最高にWIP
+GPT-4と一緒に作りました
+最高にWIP  
 まずReactで全部書き直したい  
 
-## 仕様書
+## 仕様書(byGPT)
 
 ### 1. overview
 A Chrome extension that sends selected portions of text to be converted and displayed. The user can select text in a page, select a conversion method, and the selected text can be converted and displayed. In addition, users can register their own conversion methods.
